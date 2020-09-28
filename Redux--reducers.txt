@@ -1,0 +1,24 @@
+The Store is the object that brings them together. The store has the following responsibilities:
+
+Holds application state;
+Allows access to state via getState();
+Allows state to be updated via dispatch(action);
+Registers listeners via subscribe(listener);
+Handles unregistering of listeners via the function returned by subscribe(listener).
+
+
+
+
+
+
+
+
+ jsonReport[exportUtil.constants.report.excelSheetName] = `Pane ${index} Key Developments`;
+ 
+ 
+ 
+             jsonReport[exportUtil.constants.report.excelSheetName] = `Pane ${paneNumber}`;
+
+
+
+_.without(seriesData['yData'], null).length !== 0

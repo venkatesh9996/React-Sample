@@ -1,0 +1,26 @@
+React Js lifecycle hooks
+
+3 phases
+1. Mount 
+2. Update
+3. Didmount
+
+Mount
+	constructor
+	render
+	componentDidMount
+
+Update
+	render
+	componentDidUpdate
+
+Didmount
+	componentWillUnMount
+
+= differencess
+import Button from 'react-bootstrap/Button';
+
+// or less ideally
+import { Button } from 'react-bootstrap';
+	
+	
